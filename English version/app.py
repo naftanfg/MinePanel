@@ -140,4 +140,4 @@ def delete(version):
 if __name__ == "__main__":
     init_db()
     os.makedirs("server-files", exist_ok=True)
-    app.run(debug=True, port=5060)
+    app.run(debug=False, port=5060)
