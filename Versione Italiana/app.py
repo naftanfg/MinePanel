@@ -140,4 +140,4 @@ def elimina(versione):
 if __name__ == "__main__":
     init_db()
     os.makedirs("server-file", exist_ok=True)
-    app.run(debug=True, port=5070)
+    app.run(debug=False, port=5070)
